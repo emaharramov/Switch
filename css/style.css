@@ -280,7 +280,7 @@ hr {
     text-align: justify;
     padding: 10px;
 }
-#article-2  {display: flex; justify-content: center; width: 100%;}
+#article-2  {display: flex; margin-bottom: 20px; justify-content: center; width: 100%;}
 #article-2 img {margin: 0 10px 0 0;}
 #articleinfo {
     display: flex;
@@ -318,6 +318,7 @@ hr {
     margin: auto;
     padding: 8px 13px;
     background-color: #434343;
+    border: none;
 }
 #contactform textarea {
     width: 250px;
@@ -325,6 +326,7 @@ hr {
     margin: auto;
     background-color: #434343;
     padding: 8px 13px;
+    border: none;
 }
 .article-2-margin {margin: 30px 0 0 0;}
 #contactform button {color: white; border: none; transition: 0.5s; background-color: #3eba3e; cursor: pointer; width: 250px; margin: auto; padding: 8px 13px;}
@@ -388,7 +390,6 @@ hr {
     .recentpost {
         width: 365px;
     }
-    #article-2 {margin-bottom: 20px;}
     .contact {
         width: 365px;
     }

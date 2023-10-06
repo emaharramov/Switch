@@ -1,0 +1,396 @@
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    height: 100vh;
+    background: url(../img/headerbg.webp) center/cover;
+}
+#menu li a {
+    font: bold 1em 'Proxima Nova';
+    color: #fff;
+    padding: 5px 0;
+}
+h1 {
+    font: bold 2em 'Montserrat'; 
+    color: #fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+h2 {
+    font:300 1.25em 'Montserrat';
+    color: #828181;
+    text-align: center;
+    padding: 38px 0 9px 0;
+    text-transform: uppercase;
+}
+#other-h2 {
+    font: 300 20px 'Montserrat';
+    letter-spacing: 4px;
+    color: #207b20;
+}
+h3 {
+    padding: 25px 0;
+    font: bold 1.5em 'Proxima Nova';
+    color: #828181;
+    text-align: center;
+}
+h6 {
+    font: 1em 'Myriad Pro';
+    color: #b7b3b3;
+    text-align: center;
+    padding: 12px 0 25px 0;
+}
+#other-h6 {
+    font: 300 1em 'Open Sans';
+    color: #2b9b2b;
+    text-align: center;
+}
+hr {
+    margin: auto;
+    width: 43px;
+    margin: 10px auto;
+    border: none;
+    border-top: 2px solid #818181;
+}
+#title button {
+    margin: 50px 0 0 0;
+    padding: 14px 26px;
+    border: none;
+    border-radius: 24px ;
+    background-color: #53d153;
+    font: 1.4em 'Proxima Nova';
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#search { display: flex }
+#search input {
+    font: 1em 'Myriad Pro';
+    color: #111111;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 1em 1em 1em 1em;
+}
+#search button {
+    font: 1em 'Myriad Pro';
+    color: #111111;
+    text-align: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 0 1em 1em 0;
+    padding: 5px 5px 0 0 ;
+    margin: 0 0 0 -25px;
+}
+#search button img { height: 1em; } 
+#scroll {
+    font-size: 1em 'Proxima Nova';
+    color: #111;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #f2eae0;
+    padding: 6px 12px ;
+}
+.fa-arrow-down {padding: 0 0 0 6px;}
+.bgwhite {background-color: #fff;}
+.bggreen {background-color: #53d153;}
+.bggray {background-color: #f2f1f1; padding: 0 0 38px 0; }
+.bgfooter {background-color: #333333;}
+#article-sec {
+    padding: 40px 0 70px 0;
+    text-align: center;
+}
+#article {
+    width: 90%;
+    margin: auto;
+    padding: 40px 0 0 0;
+}
+.icon {
+    margin: auto;
+    border-radius: 28px;
+    width: 143px;
+    height: 143px;
+    background-color: #e0f3e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon i {
+    font-size: 3em;
+    color: #53d153;
+}
+
+.btn {
+    color: #fff;
+    border-radius: 15px;
+    padding: 13px 20px;
+    background-color: #53d153;
+}
+#btn-sec {
+    display: flex; 
+    justify-content: center; 
+    padding: 28px 0;
+}
+#btn-sec button {
+    border: 1px solid #2b9b2b;
+    padding: 6px 16px;
+    font: 1em 'Proxima Nova';
+    background: #fff;
+    cursor: pointer;
+}
+#btn-sec button:first-child { border-radius: 18px 0 0 18px }
+#btn-sec button:last-child { border-radius: 0 18px 18px 0 }
+#btn-sec button.active, #btn-sec button:hover { background: #2b9b2b; color: #fff } 
+.images img { 
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    padding: 15px;
+}
+.images {
+    padding: 0 0 20px 0;
+}
+.images img { 
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+    padding: 20px;
+}
+#testimonials {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    padding: 0 0 50px 0;
+}
+#arrow {
+    padding: 50px 0;
+}
+#customer-comment {
+    font: 1em 'Proxima Nova';
+    color: #444444;
+    width: 78%;
+    margin: auto;
+}
+#customer {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+#customer-name {
+    font: 1em 'Proxima Nova';
+    color: #444;
+}
+#customer-position {
+    font:bold 1em 'Proxima Nova';
+    color: #ccc;
+}
+#images {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: auto;
+}
+#images img {
+    margin: 10px 0;
+}
+#button-2 {text-align: center;}
+#btn-2 {
+    padding: 10px 16px;
+    background-color: #2b9b2b;
+    color: #fff;
+    border-radius: 20px;
+
+}
+.bggray p {
+    border-radius: 20px;
+    width: 188px;
+    text-align: center;
+    background-color: #dddcdc;
+    padding: 10px 16px;
+    margin: 38px auto 0 auto;
+}
+.bggray p a {
+    color: #a59d9d;
+    text-align: center;
+    font: 1.1em 'Proxima Nova';
+}
+#hr2 {
+    width: 2px;
+    height: 77px;
+    border: none;
+    border-left: 1px solid #207b20;
+}
+#workers {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+#workers img {
+    width: 131px;
+    margin: auto;
+    border-radius: 152px;
+    padding: 0 2px 0 0;
+}
+#workersname {
+    font: 1em 'Proxima Nova';
+    color: #fff;
+    text-align: center;
+}
+#social {
+    margin: 10px auto;
+    width: 85px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    padding: 4px 0;
+    background-color: #c5e9c5;
+}
+#social img {
+    padding: 0 4px;
+    cursor: pointer;
+}
+.workers-footer {
+    background-color: #3eba3e;
+    width: 100%;
+    padding: 23px 0;
+}
+#workers-footer {
+    width: 177px;
+    margin: auto;
+    background-color: #53d153;
+    border-radius: 20px;
+    box-shadow: 1px 4px 1px #888888;
+}
+#workers-footer p  {
+    padding: 9px 20px;
+    font-size: 1.2em 'Proxima Nova';
+    text-align: center;
+    text-transform: uppercase;
+}
+#workers-footer p a {color: #fff;}
+.aboutus p {
+    font: 1em 'Proxima Nova';
+    color: #ccc;
+    text-align: justify;
+    padding: 10px;
+}
+#article-2  {display: flex; justify-content: center; width: 100%;}
+#article-2 img {margin: 0 10px 0 0;}
+#articleinfo {
+    display: flex;
+    flex-direction: column;
+}
+#h4 {
+    font: 300 1em 'Montserrat';
+    color: #cccc;
+}
+.color-sec {
+    font:300 .8em 'Montserrat';
+    color: #fff;
+    margin: 4px 0 0 0;
+    padding: 4px 8px;
+    width: fit-content;
+    border-radius: 9px;
+}
+.color-sec-1 {background-color: #53d153;}
+.color-sec-2 {background-color: #f34c03;}
+.color-sec-3 {background-color: #089cea;}
+.color-sec-4{background-color: #ffba00;}
+#info {
+    font: 300 14px 'Proxima Nova';
+    color: #ccc;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contactform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#contactform input {
+    width: 250px;
+    margin: auto;
+    padding: 8px 13px;
+    background-color: #434343;
+}
+#contactform textarea {
+    width: 250px;
+    height: 132px;
+    margin: auto;
+    background-color: #434343;
+    padding: 8px 13px;
+}
+.article-2-margin {margin: 30px 0 0 0;}
+#contactform button {color: white; border: none; transition: 0.5s; background-color: #3eba3e; cursor: pointer; width: 250px; margin: auto; padding: 8px 13px;}
+.bgfooter {
+    padding: 0 0 40px 0;
+}
+@media only screen and (min-width: 768px) {
+    nav {width: 100%; display: flex;  padding: 0 30px; justify-content: space-between;}
+    #logo {width: 65px;}
+    #menu  { order: -1; display: flex; flex-direction: row;}
+    h1 {font-size: 3.44em;}
+    h2 {letter-spacing: 4px;}
+    #title button {margin: 110px 0 0 0 }
+    #title button:hover {
+        color: #53d153;
+        background-color: #fff;
+    }
+    #menu li {margin: 0 10px;}
+    #menu li a.active {border-top: 3px solid green;}
+    #menu li:hover {border-top: 3px solid green;}
+    #article-sec {display: flex;}
+    #article {width: 281px;}
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+        margin: auto;
+    }
+    .images img {
+        width: 260px;
+        height: 225px;
+    }
+    #testimonials {width: 768px; }
+    #customer {
+        width: 213px;
+        margin: auto;
+    }
+    #customer-comment {width: 585px; padding: 20px 0; }
+    #images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 60%;
+    }
+    .workers {
+        display: flex;
+        width: 70%;
+        margin: auto;
+        padding: 50px 0;
+    }
+    .bgfooter {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .aboutus {
+        width: 365px;
+    }
+    .recentpost {
+        width: 365px;
+    }
+    #article-2 {margin-bottom: 20px;}
+    .contact {
+        width: 365px;
+    }
+    #contactform button:hover {color: #3eba3e; background-color: #fff; }
+}
